@@ -87,6 +87,8 @@ header nav ul li a:hover {
     border: 1px solid #ddd;
     padding: 17.5px;
     margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .content h2 {
