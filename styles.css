@@ -128,3 +128,12 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Link Styles */
+a {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #1e90ff;
+}
