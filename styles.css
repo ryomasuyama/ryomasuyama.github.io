@@ -137,3 +137,16 @@ a {
 a:hover {
     color: #1e90ff;
 }
+
+.highlight {
+  display: inline-block;
+  padding: 4px 6px;
+  font-size: 0.80em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #6a5acd;
+  border: 1px solid #6a5acd;
+  border-radius: 8px;
+  line-height: 1;
+  
+}
