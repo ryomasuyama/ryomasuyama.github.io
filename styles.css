@@ -150,3 +150,50 @@ a:hover {
   line-height: 1;
   
 }
+
+/* Teaching dropdown */
+.nav-item {
+  position: relative;
+}
+
+.has-submenu > .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  margin: 0;
+  padding: 0.4rem 0;
+  list-style: none;
+
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-width: 8rem;
+  z-index: 1000;
+}
+
+.has-submenu > .submenu a {
+  display: block;
+  padding: 0.5rem 0.8rem;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+/* hoverで開く + キーボード操作(フォーカス)でも開く */
+.has-submenu:hover > .submenu,
+.has-submenu:focus-within > .submenu {
+  display: block;
+}
+
+/* 見た目（任意） */
+.has-submenu > .nav-link {
+  cursor: pointer;
+}
+
+.has-submenu > .submenu a:hover,
+.has-submenu > .submenu a:focus {
+  background: #f2f2f2;
+  outline: none;
+}
