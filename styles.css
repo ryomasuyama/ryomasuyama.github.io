@@ -151,12 +151,10 @@ a:hover {
   
 }
 
-/* Teaching dropdown */
-.nav-item {
-  position: relative;
-}
+/* click-only dropdown */
+.nav-item { position: relative; }
 
-.has-submenu > .submenu {
+.submenu {
   display: none;
   position: absolute;
   top: 100%;
@@ -173,7 +171,9 @@ a:hover {
   z-index: 1000;
 }
 
-.has-submenu > .submenu a {
+.has-submenu.open > .submenu { display: block; }
+
+.submenu a {
   display: block;
   padding: 0.5rem 0.8rem;
   text-decoration: none;
@@ -181,19 +181,18 @@ a:hover {
   white-space: nowrap;
 }
 
-/* hoverで開く + キーボード操作(フォーカス)でも開く */
-.has-submenu:hover > .submenu,
-.has-submenu:focus-within > .submenu {
-  display: block;
-}
-
-/* 見た目（任意） */
-.has-submenu > .nav-link {
-  cursor: pointer;
-}
-
-.has-submenu > .submenu a:hover,
-.has-submenu > .submenu a:focus {
+.submenu a:hover,
+.submenu a:focus {
   background: #f2f2f2;
   outline: none;
+}
+
+/* buttonをリンクっぽく見せる（必要に応じて調整） */
+.nav-button {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
 }
