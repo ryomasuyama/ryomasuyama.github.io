@@ -37,7 +37,7 @@ header nav:not(.sub-nav) ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 header nav:not(.sub-nav) ul li {
