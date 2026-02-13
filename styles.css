@@ -60,7 +60,7 @@ header nav:not(.sub-nav) ul li a:hover {
 header .sub-nav {
     margin-top: 10px;
     padding: 10px 0;
-    background: linear-gradient(to right, #2f084d, #440076);
+    background: radial-gradient(circle, #2f084d 0%, #4b0082 70%);
 }
 
 header .sub-nav ul {
