@@ -84,10 +84,17 @@ header .sub-nav a:hover {
     color: #c9a0ff;
 }
 
+/* sub-navがないページでは下余白を戻す */
 header{
   padding-top: 17.5px;
+  padding-bottom: 17.5px;
+}
+
+/* sub-navがあるページだけ下余白をゼロに */
+header.has-subnav{
   padding-bottom: 0;
 }
+
 /* Intro Section */
 .intro {
     padding: 55px 0;
