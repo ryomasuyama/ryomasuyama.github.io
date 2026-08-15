@@ -189,4 +189,14 @@ a:hover {
     position: relative;
     top: -2px;
 }
+
+.paper-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bullet {
+    margin-right: 0.4em;
+    flex-shrink: 0;
+}
 }
